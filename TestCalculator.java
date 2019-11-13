@@ -9,7 +9,7 @@ public class TestCalculator // TestCalculator class
 		char key;
 		do // to run until q is pressed
 		{
-			System.out.println("Which mode you want to use: 1-Basic, 2-Moderate, 3-Advanced.");
+			System.out.println("Which mode you want to use: 1-Basic, 2-Moderate, 3-Advanced."); // select the type you want
 			x = input.nextInt();
 			if (x == 1)
 				c2.UnlimitedInputs();
